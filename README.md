@@ -1,5 +1,5 @@
 # Travaux-memoire
-Evaluation de l'impact de la connectivité internet sur l'accès aux services cloud depuis le Cameroun.
+**Evaluation de l'impact de la connectivité internet sur l'accès aux services cloud depuis le Cameroun.**
 
 ## Implémentation 
 Nous allons utilisé une procédure basée sur des mesures de performance effectuées sur une infrastructure Cloud comme banc d’essai.
