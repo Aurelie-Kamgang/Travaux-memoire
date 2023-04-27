@@ -3,10 +3,10 @@
 
 ## Implémentation 
 Nous allons utilisé une procédure basée sur des mesures de performance effectuées sur une infrastructure Cloud comme banc d’essai.
-Pour le moment, les aspects des services Cloud à évaluer sont sur SaaS.
+Pour le moment, les aspects des services Cloud à évaluer sont sur le SaaS.
 
 Les mesures de performance qui seront analysées sont :
-- Temps de réponse du service (délai)
+- Temps de réponse du service
 - Latence
 - Bande passante
 - Débit
