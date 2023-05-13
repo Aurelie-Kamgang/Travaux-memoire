@@ -47,9 +47,13 @@ Les mesures de performance qui seront analysées sont :
 **5.  Interpréter les résultats de l'analyse :**
     
     -   Analyser les graphiques et les résultats statistiques pour identifier les tendances et les anomalies dans les données de performance.
+    
     -   Évaluer l'impact des différentes variables sur les performances, telles que le nombre d'utilisateurs simulés, la fréquence des requêtes, etc.
+    
     -   Tirer des conclusions sur les performances de l'application ou du service cloud évalué, et identifier les domaines d'amélioration potentiels (perspectives).
     
+    
+**Voici l'architecture du scénario décrit plus haut:**    
     
 **Architecture**
 
