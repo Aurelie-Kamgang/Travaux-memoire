@@ -70,7 +70,7 @@ Ci-dessous nous avons un tableau comparatif de certains outils de benchmark http
 
 
 
- 1. D'après le tableau précédent, les outils tel que le Temps réel = Non ,  les Fonctionnalités d'analyse = Avancées et  la Flexibilité = Elevée sont
+ 1. D'après le tableau précédent, les outils tel que le Temps réel = Non ,  les Fonctionnalités d'analyse = Avancées et  la Flexibilité = Elevée sont:
 				
 				- jmeter
 				- k6
@@ -132,6 +132,8 @@ Par rapport au travail à faire **Apache Jmeter** est pertinent car:
 - Il est flexible et peut s'adapter et  répondre aux besoins spécifiques des utilisateurs dans différents scénarios d'utilisation (Prise en charge de différents protocoles, Personnalisation des requêtes, Personnalisation des requêtes, etc.)
 
 - Il collecte les données qui seront analysées plus tard donc le paramètre temps ici n'est pas important.
+
+- Apache JMeter est généralement considéré comme l'outil le plus populaire et bénéficie d'une communauté active.
 
 **NB:** Le choix d'utiliser **pandas**, **numpy** et **matplotlib** pour l'analyse est du au fait que:
 
