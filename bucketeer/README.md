@@ -59,7 +59,8 @@ $ docker-compose start server
 
 - Fetch all items:
 
-![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/1cb7c6a6-ffab-401d-b913-501c7115f5d1)
+![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/8f4379fd-c6f9-4e31-b863-7eb03bcae194)
+
 
 - View a specific item:
 
