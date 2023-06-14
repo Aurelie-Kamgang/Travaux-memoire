@@ -24,7 +24,15 @@ The database migration files are in `db/migrations` so feel free to simply sourc
 $ export POSTGRESQL_URL="postgres://$PG_USER:$PG_PASS@localhost:5432/$PG_DB?sslmode=disable"
 $ migrate -database ${POSTGRESQL_URL} -path db/migrations up
 ```
+
 _**NOTE:** Remember to replace the `$PG*` variables with their actual values_
+In my case i have:
+```bash
+psql -h localhost -U postgres -w -c "create database example;"  // Create database example with user postgres in localhost
+export POSTGRESQL_URL='postgres://postgres:password@localhost:5432/example?sslmode=disable'
+migrate -database ${POSTGRESQL_URL} -path db/migrations up
+```
+
 ### Development
 After making your changes, you can rebuild the `server` service by running the commands below
 ```bash
