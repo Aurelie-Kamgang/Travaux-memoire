@@ -2,6 +2,14 @@
 * Docker and Go
 * [golang-migrate/migrate](https://github.com/golang-migrate/migrate) 
 
+## Our API will expose the following endpoints:
+
+POST /items to add a new item to the list
+GET /items to fetch all existing items in the list
+GET /items/{itemId} to fetch a single item from the list using its ID
+PUT /items/{itemId} to update an existing item
+DELETE /items/{itemId} to delete an item from the list
+
 ### Usage
 Clone the repository with:
 ```bash
@@ -41,3 +49,29 @@ $ docker-compose build server
 $ docker-compose up --no-start server
 $ docker-compose start server
 ```
+
+
+ Results:
+ 
+ - Homepage:
+
+![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/8f4dbe5e-b34d-4a86-9afb-31ff9a9acadf)
+
+- Fetch all items:
+
+![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/1cb7c6a6-ffab-401d-b913-501c7115f5d1)
+
+- View a specific item:
+
+![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/b29a244a-d70e-4496-806c-47bbc41ac237)
+
+- Add a new item:
+ 
+ ![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/6f031cec-e739-4802-bc4b-9cbfaa1a935a)
+
+- Supprimer un élément dans la base de donnée:
+
+![image](https://github.com/Aurelie-Kamgang/Travaux-memoire/assets/74322332/8d07eff0-d581-4099-874b-51335eb7c4ea)
+
+
+
