@@ -34,9 +34,18 @@ $ migrate -database ${POSTGRESQL_URL} -path db/migrations up
 ```
 
 _**NOTE:** Remember to replace the `$PG*` variables with their actual values_
+
+- Create the password of user postgres: ``sudo -u postgres psql`` and ``ALTER USER postgres WITH PASSWORD 'monmotdepasse';``
+- Install the migrate binary by following the installation guide and generate the database migrations by running:
+``$ curl -L https://packagecloud.io/golang-migrate/migrate/gpgkey | apt-key add -
+$ echo "deb https://packagecloud.io/golang-migrate/migrate/ubuntu/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/migrate.list
+$ apt-get update
+$ apt-get install -y migrate``
+
 In my case i have:
+
 ```bash
-psql -h localhost -U postgres -w -c "create database example;"  // Create database example with user postgres in localhost
+psql -h localhost -U postgres -W -c "create database example;"  // Create database example with user postgres in localhost
 export POSTGRESQL_URL='postgres://postgres:password@localhost:5432/example?sslmode=disable'
 migrate -database ${POSTGRESQL_URL} -path db/migrations up
 ```
