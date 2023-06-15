@@ -37,10 +37,10 @@ _**NOTE:** Remember to replace the `$PG*` variables with their actual values_
 
 - Create the password of user postgres: ``sudo -u postgres psql`` and ``ALTER USER postgres WITH PASSWORD 'monmotdepasse';``
 - Install the migrate binary by following the installation guide and generate the database migrations by running in super user mode (``sudo su``):
-``- $ curl -L https://packagecloud.io/golang-migrate/migrate/gpgkey | apt-key add -
-- $ echo "deb https://packagecloud.io/golang-migrate/migrate/ubuntu/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/migrate.list
-- $ apt-get update
-- $ apt-get install -y migrate``
+- ``$ curl -L https://packagecloud.io/golang-migrate/migrate/gpgkey | apt-key add -``
+- ``$ echo "deb https://packagecloud.io/golang-migrate/migrate/ubuntu/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/migrate.list``
+- ``$ apt-get update``
+- ``$ apt-get install -y migrate``
 
 In my case i have:
 
